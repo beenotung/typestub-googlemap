@@ -10,7 +10,8 @@
     "test": "npm run lint"
   },
   "keywords": [
-    "horizon",
+    "google map",
+    "googlemap",
     "typedef",
     "typestub"
   ],
