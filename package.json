@@ -1,6 +1,6 @@
 {
   "name": "typestub-googlemap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "source: https://github.com/beenotung/typed-horizon",
   "main": "index.js",
   "scripts": {
