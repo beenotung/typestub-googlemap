@@ -1,21 +1,23 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
-    "declaration": false,
+    "allowJs": false,
+    "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "noImplicitThis": true,
     "skipLibCheck": true,
     "lib": [
       "dom",
       "es2015"
     ],
-    "module": "es2015",
+    "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
-    "target": "es6"
+    "target": "es5"
   },
   "include": [
-    "index.d.ts"
+    "index.ts"
   ],
   "exclude": [
     "node_modules"

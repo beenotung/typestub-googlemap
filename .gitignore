@@ -1,3 +1,6 @@
 node_modules/
 .idea/
 yarn.lock
+index.d.ts
+index.js
+index.js.map

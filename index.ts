@@ -1,3 +1,5 @@
+// please load from "http://maps.google.com/maps/api/js?key=<API_KEY>&libraries=places" in <script> tag
+
 export declare namespace google.maps {
   export namespace places {
     export class SearchBox {
