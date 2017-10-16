@@ -24,7 +24,10 @@ declare module google.maps {
   }
 
   export class LatLng {
-    constructor(public lag: number, public  lng: number);
+    public lag: number;
+    public lng: number;
+
+    constructor(lag: number, lng: number);
   }
 
   export enum Animation {
@@ -45,14 +48,18 @@ declare module google.maps {
     location: LatLng;
   }
 
+  export interface GeocoderResult {
+    formatted_address: string;
+  }
+
   export class Geocoder {
-    geocode(option: GeocodeOption, callback: (results, status) => void);
+    geocode(option: GeocodeOption, callback: (results: GeocoderResult[], status: "OK" | string) => void): void;
   }
 
   export class InfoWindow {
-    setContent(s: string);
+    setContent(s: string): void;
 
-    open(map: Map, marker: Marker);
+    open(map: Map, marker: Marker): void;
   }
 
   export interface ClickEvent {
