@@ -23,8 +23,9 @@ declare module google.maps {
     constructor(e: HTMLElement, option: MapOption);
   }
 
-  export class LatLng {
-    constructor(lag: number, lng: number);
+  export interface LatLng {
+    lag: number;
+    lng: number;
   }
 
   export enum Animation {
