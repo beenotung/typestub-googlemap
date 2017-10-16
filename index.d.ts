@@ -55,4 +55,11 @@ declare module google.maps {
 
     open(map: Map, marker: Marker);
   }
+
+  export interface ClickEvent {
+    latLng: {
+      lat(): number;
+      lng(): number;
+    }
+  }
 }
