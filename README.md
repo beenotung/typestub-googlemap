@@ -1,8 +1,5 @@
-# TypeStub for @horizon/client
-source: https://github.com/beenotung/typed-horizon
-
-## TL;DL
-It is hard to use typings with Ionic2 (Angular2), this repo try to fix it (or workaround with it).
+# TypeStub for googlemap
+source: https://github.com/beenotung/typestub-googlemap.git
 
 ## Example
 ```typescript
@@ -13,3 +10,6 @@ let hz:typeStubHorizon.Horizon = Horizon();
 hz.onReady(()=>console.log('ready'));
 hz.connect();
 ```
+
+## Todo
+- [ ] update example
